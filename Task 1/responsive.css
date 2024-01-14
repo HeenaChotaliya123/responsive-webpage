@@ -1,0 +1,154 @@
+h1 {
+    color:white;
+    
+}
+
+hr {
+    border-style: dashed;
+    width: 40%;
+    border-color:#C39BD3;
+    border-width: 2px;
+}
+.para {
+   font-size: x-large;
+   text-align: center;
+}
+.box {
+    text-align: center;
+    background-color: #C39BD3;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+h3 {
+    color: white;
+}
+.boxx {
+    text-align: center;
+    padding-top: 1%;
+    background-color: #C39BD3;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.members {
+    display: flex;
+}
+.img {
+    margin-left: 20%;
+}
+h4,p {
+    margin-left: 30%;
+}
+.imgg {
+    margin-left: 10%;
+}
+.mem {
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+}
+.text {
+     text-align: left;
+
+}
+/*@media screen and (max-width: 620px) {
+    .h1 .hr .box .boxx .members .img .mem .para .text .h4,p .h3{
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px) {
+    .box .boxx .members .img .mem .para .text{
+    grid-template-columns:1fr;
+}
+}
+*/
+@media screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  @media screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media screen and (min-width: 768px) {
+    /* For desktop: */
+    .rows-1 {width: 8.33%;}
+    .rows-2 {width: 16.66%;}
+    .rows-3 {width: 25%;}
+    .rows-4 {width: 33.33%;}
+    .rows-5 {width: 41.66%;}
+    .rows-6 {width: 50%;}
+    .rows-7 {width: 58.33%;}
+    .rows-8 {width: 66.66%;}
+    .rows-9 {width: 75%;}
+    .rows-10 {width: 83.33%;}
+    .rows-11 {width: 91.66%;}
+    .rows-12 {width: 100%;}
+  }
+
+/* Your existing CSS styles here */
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for tablets and smaller screens */
+    .box, .para, .boxx {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .members {
+        flex-wrap: wrap;
+    }
+
+    .img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .img, .imgg, .imggg {
+        width: 100%;
+        /*box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 20px;*/
+    }
+
+    .text {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
